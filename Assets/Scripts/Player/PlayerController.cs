@@ -1,7 +1,5 @@
 using JetBrains.Annotations;
-using Mono.Cecil;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour

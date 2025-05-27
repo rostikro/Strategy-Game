@@ -11,7 +11,6 @@ public class CheatManager : MonoBehaviour
 
     void Start()
     {
-        // Define cheat codes here
         cheatCodes.Add("HESOYAM", GiveResources);
         cheatCodes.Add("REMOVE", RemoveFood);
     }

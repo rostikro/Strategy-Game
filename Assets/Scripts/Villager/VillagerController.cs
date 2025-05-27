@@ -163,8 +163,7 @@ public class VillagerController : MonoBehaviour
         
         // Check if villager gets to work destination
         if (isWalking && !_agent.pathPending &&
-            _agent.remainingDistance <= _agent.stoppingDistance &&
-            (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f))
+            _agent.remainingDistance <= _agent.stoppingDistance)
         {
             OnDestinationReached();
         }
